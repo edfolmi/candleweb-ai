@@ -6,10 +6,10 @@ setup(
     description="A custom tool for Candleweb AI Agents developers.",
     author="Candleweb Power Developers",
     author_email="ai@candleweb.com",
-    url="https://github.com/edfolmi",  # Replace with your GitHub URL
+    url="https://github.com/edfolmi/candleweb-ai",
     packages=find_packages(),
     install_requires=[
-        "crewai>=X.X.X",  # Replace with the required version of CrewAI
+        "crewai>=0.95.0",
         "pydantic>=1.10",  # Adjust version as necessary
     ],
     classifiers=[
